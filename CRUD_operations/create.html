@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Client</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <h1 style="padding: 10px">Add new Client</h1>
+    <hr>
+    <form action="add.php" method="POST">
+        <table class="table">
+            <tr><td> <label for="nameIn">Name: </label></td><td> <input id="nameIn" name="nameIn" /></td></tr>
+            <tr><td><label for="emailIn">Email: </label></td><td><input id="emailIn" name="emailIn" /></td></tr>
+            <tr><td> <label for="phoneIn">Phone: </label></td><td> <input id="phoneIn" name="phoneIn" /></td></tr>
+            <tr><td> <label for="addressIn">Address: </label></td><td><input id="addressIn" name="addressIn" /></td></tr>
+        </table>
+
+        <input type="submit" value="Add" class="btn btn-success"/> 
+        <input type="reset" value="reset" class="btn btn-danger"/>
+    </form>
+</body>
+</html>
